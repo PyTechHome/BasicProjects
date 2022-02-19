@@ -22,3 +22,4 @@ class TicTacToe:
         #    if spot == ' ':
         #        moves.append(i)
         #return moves
+43:30
