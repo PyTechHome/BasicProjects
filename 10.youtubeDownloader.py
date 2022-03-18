@@ -1,6 +1,5 @@
 #install pytube library
 from pytube import YouTube
-import os
 
 #where to save the file
 savePath='E:/'
