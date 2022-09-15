@@ -7,7 +7,7 @@ os.system('cls' if os.name =='nt' else 'clear')
 
 fromCurrency=input('Enter the currency to change From: ').upper()
 toCurrency=input('Enter the currency you want to change To: ').upper()
-amountCurrency=input('Enter the amount: ').upper()
+amountCurrency=input('Enter the amount: ')
 
 url=f'https://api.apilayer.com/exchangerates_data/convert?to={toCurrency}&from={fromCurrency}&amount={amountCurrency}'
 
