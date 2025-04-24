@@ -6,12 +6,13 @@
 #print("Subscribe to {}".format(youtuber))
 #print(f"Subscribe to {youtuber}")
 
-adj=input("Adjective: ")
-verb1=input("Verb: ")
-verb2=input("Verb: ")
-famous_person=input("Famous Person: ")
+adjective=input("Enter an Adjective: ")
+gadget=input("Enter a Gadget: ")
+verbing=input("Enter a verb --ing: ")
+robject=input("Enter a name of an object: ")
+funny_word=input("Enter a form of energy: ")
 
-madlib=f"Computer Programming is so {adj}! It makes me so excited all the time because \
-I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
-
+madlib=f"""\nThe Tech Glitch\n 
+One {adjective} morning, I turned on my {gadget} and it started {verbing}!\n  
+So I grabbed a {robject} and fixed it myself. Now everything runs on {funny_word} power!\n\n"""
 print(madlib)
